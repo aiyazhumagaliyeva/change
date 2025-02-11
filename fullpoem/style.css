@@ -1,0 +1,67 @@
+.libre-caslon-text-regular {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-caslon-text-bold {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-caslon-text-regular-italic {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  body {
+    font-family: "Libre Caslon Text", serif;
+    font-size: 2vh;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: transparent;
+    text-align:center;
+    display:flex;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+  }
+  
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    color: rgb(232, 2, 2);
+  }
+
+  .poem{
+    text-align:center;
+    font-family: "Libre Caslon Text", serif;
+    font-size: 2.3vh;
+    line-height: 4vh;
+    padding:0 10vh;
+  }
+
+.poem-wrapper {
+     width:80%;
+     max-width:800px;
+     margin:0 auto;
+}
+
+  h1{
+    text-align: center;
+    font-size: 6vh;
+    font-family: "Libre Caslon Text", serif;
+    margin-bottom: 7vh;
+    position:sticky;
+    top:0;
+    background-color: white;;
+  }
