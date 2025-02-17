@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Change</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../yes3/style.css">
     <link rel="stylesheet" href="../reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet"> 
 </head>
     <body>
-        <div id="popup">
-        <div id="popup-content">click yes or no to proceed</div>
-        </div>
-            <div class="homebody-content" id="homebodyContent">
-                <div class="question">
-                    Start the change?
+        <div class="topnav">
+            <a class="home" href="../index.html">home.</a>
+            <a class="about" href="../fullpoem/index.html">full poem.</a> 
+        </div>     
+            <h1>
+                Change
+            </h1> 
+            <div id="popup">
+                <div id="popup-content">click last word to proceed or first word to go back</div>
                 </div>
-                <div class="buttons">
-                    <a href="../yes1/index.html"><button id="yes">yes.</button></a>
-                    <a href="../no1/index.html"><button id="no">no.</button></a>
-                </div>                                 
-        </div>
-    <script src="question.js"></script>
-    </body>
-</html>
+            <div class="stanza" id="falling">
+            <div class="homebody-content" id="homebodyContent">
+                <div id="typedtext"> 
+                </div>
+            </div>
+            <canvas id="maskCanvas"></canvas>
+            <script src="yes4.js"></script>
+        </body>
+        </html>

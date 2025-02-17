@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet"> 
 </head>
-    <body>
+    <body id="page">
         <div class="topnav">
             <a class="home" href="../index.html">home.</a>
             <a class="about" href="../fullpoem/index.html">full poem.</a> 
@@ -18,7 +18,10 @@
             <h1>
                 Change
             </h1> 
-        <div class="stanza">
+            <div id="popup">
+                <div id="popup-content">click last word to proceed or first word to go back</div>
+                </div>
+        <div class="stanza" id="falling">
             <span id="wordOne"> <a href="../index.html">Changed?</a></span> 
             <span>Yes,</span> 
             <span>I</span> 
@@ -57,7 +60,14 @@
             <span>of</span> 
             <span>that</span> 
             <span>vanished</span> 
-            <span id="lastWord">day.</span>
+            <span id="lastWord">
+                <a href="../yes2/index.html" id="lastWordLink"> 
+                day.
+            </a></span>
         </div>
+
+        <div id="falling"></div>
+
+        <script src="yes1.js"></script>
     </body>
 </html>

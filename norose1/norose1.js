@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(showPopup, 3000);
 
     document.getElementById("yesBtn").addEventListener("click", function() {
-        window.location.href = "../yes1/index.html";
+        window.location.href = "../index.html";
     });
 
     document.getElementById("noBtn").addEventListener("click", function() {
